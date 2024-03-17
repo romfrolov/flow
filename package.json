@@ -1,0 +1,20 @@
+{
+    "name": "flow",
+    "displayName": "Flow",
+    "version": "1.0.0",
+    "publisher": "Roman Frolov",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Flow",
+                "uiTheme": "vs-dark",
+                "path": "./flow-color-theme.json"
+            }
+        ]
+    }
+}
